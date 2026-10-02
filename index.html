@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gourmet Hub | Recipe Finder & Online Food Order</title>
+  
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+ <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <i class="fa-solid fa-utensils"></i>
+        <span>Gourmet Hub</span>
+      </div>
+      <div class="nav-actions">
+        <button class="btn-icon-text" id="viewBookmarksBtn">
+          <i class="fa-solid fa-bookmark"></i>
+          <span>Saved (<span id="bookmarkCount">0</span>)</span>
+        </button>
+        <button class="btn-icon-text" id="openCartBtn">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <span>Cart</span>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Explore & Order World Culinary Delights</h1>
+    <p>Discover thousands of recipes or order freshly prepared gourmet meals directly to your doorstep.</p>
+    
+    <!-- Search Bar -->
+    <form class="search-container" id="searchForm">
+      <div class="search-input-wrapper">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by dish name (e.g., Pasta, Chicken)..." />
+      </div>
+      <button type="submit" class="search-btn">Search</button>
+    </form>
+
+    <!-- Category Selector -->
+    <div class="categories" id="categoriesContainer">
+      <button class="chip active" data-category="All">All</button>
+      <button class="chip" data-category="Seafood">Seafood</button>
+      <button class="chip" data-category="Beef">Beef</button>
+      <button class="chip" data-category="Chicken">Chicken</button>
+      <button class="chip" data-category="Vegetarian">Vegetarian</button>
+      <button class="chip" data-category="Pasta">Pasta</button>
+      <button class="chip" data-category="Dessert">Dessert</button>
+    </div>
+  </section>
+
+  <!-- Recipe Grid -->
+  <main class="grid-container" id="recipeGrid"></main>
+
+  <!-- Recipe Details Modal -->
+  <div class="modal-overlay" id="recipeModal">
+    <div class="modal">
+      <button class="modal-close" id="closeModalBtn">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart Drawer -->
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h2>Your Basket</h2>
+      <button class="modal-close" id="closeCartBtn" style="position: static;">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItemsContainer"></div>
+    <div class="cart-footer">
+      <div class="total-row">
+        <span>Total:</span>
+        <span id="cartTotal">$0.00</span>
+      </div>
+      <button class="checkout-btn" id="checkoutBtn" onclick="processCheckout()">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
