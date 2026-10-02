@@ -6,7 +6,7 @@
 
   <br />
 
-  <a href="https://imaduuu.github.io/Recipe-Ordering-App/" target="_blank">
+  <a href="https://imaduuu.github.io/Gourmet-Hub/" target="_blank">
     <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-Visit_App-00C853?style=for-the-badge&logoWidth=20" alt="Live Demo" />
   </a>
   &nbsp;
