@@ -12,7 +12,7 @@
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
   [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
   [![API](https://img.shields.io/badge/REST_API-TheMealDB-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.themealdb.com/api.php)
-  [![License](https://img.shields.io/badge/License-MIT-4BC51D?style=for-the-badge)](LICENSE)
+  
 
 </div>
 
