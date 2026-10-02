@@ -4,15 +4,22 @@
 
   **A sleek, modern web application for discovering world recipes and ordering gourmet dishes online.**
 
-  [ Live Demo ](https://imaduuu.github.io/Recipe-Ordering-App/) · [ Source Code ](https://github.com/ImAduuu/Recipe-Ordering-App)
-
   <br />
+
+  <a href="https://imaduuu.github.io/Recipe-Ordering-App/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-Visit_App-00C853?style=for-the-badge&logoWidth=20" alt="Live Demo" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/ImAduuu/Recipe-Ordering-App" target="_blank">
+    <img src="https://img.shields.io/badge/💻_SOURCE_CODE-View_Repository-24292E?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+  </a>
+
+  <br /><br />
 
   [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
   [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
   [![API](https://img.shields.io/badge/REST_API-TheMealDB-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.themealdb.com/api.php)
-  
 
 </div>
 
